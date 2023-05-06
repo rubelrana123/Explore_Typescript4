@@ -16,3 +16,10 @@ const HeroData : HerpTypeThree = {
     salary : 5555,
     position : "Boss"
 }
+
+const myFavHero : HeroTypeTwo | HerpTypeThree  = {
+    name : "Rubel",
+    age : 20,
+    salary : 522,
+    position :"kjk"
+}
