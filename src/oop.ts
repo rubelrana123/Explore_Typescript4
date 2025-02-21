@@ -1,4 +1,4 @@
-/* class Person {
+ class Person {
     name  : string,
     age : number,
     constructor(name : string, age : number) {
@@ -10,7 +10,7 @@
 
 const p1 = new Person("hello", 4);
 
-//inheritance
+inheritance
 
 
 class Person1 {
@@ -24,25 +24,25 @@ class Person1 {
         console.log(`name ${this.name} age ${this.age}`)
     }
 }
-// class Person2 {
-//     name : string;
-//     age : number;
-//     position : string
-//     constructor(name : string, age :number, position : string) {
-//         this.name = name;
-//         this.age = age;
-//         this.position = position;
-//     }
-//     show () {
-//         console.log(`name ${this.name} age ${this.age} ${this.position}`)
-//     }
-// }
+ class Person2 {
+     name : string;
+     age : number;
+     position : string
+     constructor(name : string, age :number, position : string) {
+         this.name = name;
+         this.age = age;
+         this.position = position;
+     }
+     show () {
+         console.log(`name ${this.name} age ${this.age} ${this.position}`)
+     }
+ }
 
 
 
-// class Person3 extends Person2 {
-//     salary : string;
+ class Person3 extends Person2 {
+     salary : string;
     
-// }
-// const p2 = new Person1("Rube", 25);
-// console.log(p2) */
+ }
+ const p2 = new Person1("Rube", 25);
+ console.log(p2) */
