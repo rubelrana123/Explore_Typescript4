@@ -7,7 +7,7 @@ const object : {heroname : string; readonly age : number; status : string; isMar
 };
 
 const {heroname} = object;
-  object.age = 40;  
+  // object.age = 40;  
 // can't change
  
 console.log(heroname)

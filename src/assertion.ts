@@ -1,6 +1,6 @@
 //type assertion
-const thinkSomething = "Hello";
-console.log((thinkSomething as string).charAt())
+// const thinkSomething = "Hello";
+// console.log((thinkSomething as string).charAt())
 
 
 
