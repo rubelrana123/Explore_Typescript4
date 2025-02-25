@@ -1,7 +1,7 @@
 //type assertion
 // const thinkSomething = "Hello";
 // console.log((thinkSomething as string).charAt())
-
+//assertion
 type Pet = {
    name: string;
    walk: () => void;
