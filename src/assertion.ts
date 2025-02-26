@@ -26,3 +26,4 @@ const myLuckNum = (num : string | number) : number | string | undefined => {
    }
 }
 myLuckNum(5)
+myLuckNum(6)
