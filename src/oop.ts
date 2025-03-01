@@ -41,8 +41,21 @@ class Person1 {
 
 
  class Person3 extends Person2 {
-     salary : string;
+    //  salary : string;
     
  }
  const p2 = new Person1("Rube", 25);
- console.log(p2) */
+ console.log(p2) ;
+
+ class VirtualPoint {
+    x: number;
+    y: number;
+   
+    constructor(x: number, y: number) {
+      this.x = x;
+      this.y = y;
+    }
+  }
+   
+  const newVPoint = new VirtualPoint(13, 56);
+ // logs "13, 56"
